@@ -1,0 +1,41 @@
+[
+    {
+        "name": "hispaSMS/oneapi",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/hispasms/oneapi_php.git",
+            "reference": "1cb88b1f29757e7832cd3d1c8cbfe0bb20767f13"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://github.com/hispasms/oneapi_php/archive/master.zip",
+            "reference": "1cb88b1f29757e7832cd3d1c8cbfe0bb20767f13",
+            "shasum": ""
+        },
+        "time": "2015-03-30 15:41:19",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "hispaSMS\\": "oneapi/",
+                "hispaSMS\\models\\": "oneapi/models/",
+                "hispaSMS\\models\\iam\\": "oneapi/models/iam/",
+                "hispaSMS\\models\\two_factor_authentication\\": "oneapi/models/two_factor_authentication/",
+                "hispaSMS\\utils\\": "oneapi/utils/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "Apache-2.0"
+        ],
+        "authors": [
+            {
+                "name": "HispaSMS",
+                "email": "dev@hispasms.com"
+            }
+        ],
+        "description": "Hispasms OneAPI library for PHP"
+    }
+]

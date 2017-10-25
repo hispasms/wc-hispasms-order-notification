@@ -1,0 +1,23 @@
+{
+    "name": "hispaSMS/oneapi",
+    "version": "1.1.3",
+    "license": "Apache-2.0",
+    "description": "HispaSMS OneAPI library for PHP",
+    "authors": [
+        {
+            "name": "HispaSMS",
+            "email": "dev@hispasms.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "hispaSMS\\": "oneapi/",
+            "hispaSMS\\models\\": "oneapi/models/",
+            "hispaSMS\\models\\iam\\": "oneapi/models/iam/",
+            "hispaSMS\\models\\two_factor_authentication\\": "oneapi/models/two_factor_authentication/",
+            "hispaSMS\\utils\\": "oneapi/utils/"
+        }
+    }
+}
