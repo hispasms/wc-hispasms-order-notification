@@ -123,6 +123,7 @@ En caso de no querer usar un plugin para que introduzca el Código de País de m
 **- DATOS DEL PLUGIN -**
 
 **=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=**
+
  Nombre de Plugin: WooCommerce international phone input
  Author: Alex Masliychuk (alex91ckua)							 |
 
