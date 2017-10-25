@@ -1,0 +1,770 @@
+/************** CSS - Panel de Administrador - START ***************/
+iframe, img, a img {
+    outline: none;
+    border: none;
+}
+#hispasms_send_sms_any{
+	margin-top:20px;
+	margin-bottom: 15px;
+}
+#hispasms_send_sms_any h3.hndle{
+	padding:15px;
+}
+#hispasms_send_sms_any .inside{
+	padding: 0px 15px;
+}
+#hispasms_send_sms_any label {
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+#hispasms_send_sms_any input,
+#hispasms_send_sms_any textarea {
+	display: block;
+}
+#hispasms_send_sms_any span {
+	font-style: italic;
+	color:#4E4E4E;
+}
+#hispasms_receiver_number {
+	width:350px;
+	height: 29px;
+	padding:5px;
+}
+.send_sms_to_any_notice{
+    padding: 7px 10px;
+    /* HISPASMS */
+	background: #ffffc0 none repeat scroll 0 0;
+    border: 1px none #428bca;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+	/* HISPASMS */
+}
+.send_sms_to_any_notice p{
+	line-height: 25px;
+	font-size: 14px;
+}
+body.notificaciones-sms_page_hispa-order-sms-send-any .notice-error div.error {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #dc3232;
+    border-image: none;
+    border-radius: 2px;
+    border-style: solid;
+    border-width: 2px 2px 2px 10px;	
+}
+.account-hispasms-info {
+    background: #e1edf3 none repeat scroll 0 0;
+    border: 2px solid #428bca;
+    border-radius: 5px;
+    padding: 10px;
+}
+/**************** CSS - Panel de Administrador - END ***************/
+
+/*********** CAJA DE SALDO - MULTI-TABS & TO ANY - START ***********/
+/* DIV general - START */
+.iframe-menu-hispasms {
+    background: #e1edf3 none repeat scroll 0 0;
+    border: 1px none #428bca;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 15px;
+	margin-top: 25px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+/* DIV general - END */
+/* DIV box-credit - START */
+.box-credit {
+    flex-basis: 25%;
+}
+.box-credit > span {
+    color: #428bca;
+    float: left;
+    font-size: 14px;
+    font-weight: 600;
+	margin-top: 5px;
+    text-align: left;
+    vertical-align: middle;
+	text-transform: uppercase;
+}
+.box-credit-amount {
+    background: #d7f5d0 none repeat scroll 0 0;
+    border: 1px solid #8cd590;
+    border-radius: 10px;
+    color: #009b1a;
+    float: left;
+    font-weight: 700;
+    margin: 0 0 0 35px;
+	padding: 5px 0;
+    text-align: center;
+    vertical-align: middle;
+    width: 100px;	
+}
+/* DIV box-credit - END */
+/* DIV buy-signup - START */
+.buy-signup {
+    flex-basis: 25%;
+}
+.boton-order-sign-up-general {
+    display: inline-block;
+	width: 49%;
+}
+.boton-order-sign-up-general > a {
+    border: 1px solid #428bca;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    color: #428bca;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 3px 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton-order-sign-up-general > a:hover {
+    background: #428bca none repeat scroll 0 0;
+    border: 1px solid #333;
+    color: #fff;
+}
+/* DIV buy-signup - END */
+/* DIV access-portal-home - START */
+.access-portal-home {
+    flex-basis: 25%;
+}
+.boton-access-portal {
+    display: block;
+    float: right;
+    width: 50%;
+}
+.boton-access-portal > a {
+    color: #428bca;
+    font-size: 14px;
+    font-weight: 600;
+	padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton-access-portal > a:hover {
+    background: #428bca none repeat scroll 0 0;
+    color: #fff;
+	border-radius: 2px;
+}
+.boton-home-hispasms {
+    display: block;
+    float: right;
+    width: 50%;
+}
+.boton-home-hispasms > a {
+    color: #428bca;
+    font-size: 14px;
+    font-weight: 600;
+	padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton-home-hispasms > a:hover {
+    background: #428bca none repeat scroll 0 0;
+    color: #fff;
+	border-radius: 2px;
+}
+/* DIV access-portal-home - END */
+/* DIV logo-hispa-menu - START */
+.logo-hispa-menu {
+    flex-basis: 25%;
+}
+.box-credit-img {
+    background: rgba(0, 0, 0, 0) url("/wp-content/plugins/wc-hispasms-order-notification/assets/images/logotipo-hispasms-v3-220x33.png") no-repeat scroll 0 0;
+    float: right;
+    height: 33px;
+	opacity: 0.45;
+    width: 200px;
+}
+/* DIV logo-hispa-menu - END */
+/************ CAJA DE SALDO - MULTI-TABS & TO ANY - END ************/
+
+/************ CAJA DE SALDO - ORDER WOOCOMMERCE - START ************/
+
+.hispasms_send_sms code {
+    background: rgba(0, 0, 0, 0.15) none repeat scroll 0 0;
+}
+#hispasms_send_sms_overlay_block{
+	position: absolute;
+	background: rgba(255,255,255,0.5);
+	top: 0px;
+	left: 0px;
+	z-index: 9999;
+	display: none;
+}
+#hispasms_send_sms_overlay_block img {
+	position: absolute;
+	top: 40%;
+	left: 47%;
+}
+
+/* DIV IFRAME - START */
+.iframe-order-customer-hispasms {
+    align-items: center;
+    background: #e1edf3 none repeat scroll 0 0;
+    border: 1px none #428bca;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 100px;
+}
+/* DIV IFRAME - END */
+/* DIV box-order-credit - START */
+.box-order-credit {
+    flex-basis: 100%;
+}
+.box-order-credit > span {
+    color: #428bca;
+    display: block;
+    float: left;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 7px 0 0 15px;
+    text-align: left;
+    text-transform: uppercase;	
+}
+.box-order-credit-amount {
+    background: #d7f5d0 none repeat scroll 0 0;
+    border: 1px solid #8cd590;
+    border-radius: 10px;
+    color: #009b1a;
+    display: block;
+    float: left;
+    font-weight: 700;
+    margin: 0 15px 0 10px;
+    padding: 5px 0;
+    text-align: center;
+    width: 75px;
+}
+/* DIV box-order-credit - END */
+/* DIV logo-hispa-order-credit-img - START */
+.logo-hispa-order-credit {
+    flex-basis: 100%;
+}
+.box-order-credit-img {
+    background: rgba(0, 0, 0, 0) url("/wp-content/plugins/wc-hispasms-order-notification/assets/images/logotipo-hispasms-v3-220x33.png") no-repeat scroll 0 0;
+    float: left;
+    height: 33px;
+    margin: 15px 0 5px 25px;
+    opacity: 0.45;
+    width: 200px;
+}
+/* DIV logo-hispa-order-credit-img - END */
+/* DIV SMS-result-order-credit - START */
+.hispasms_send_sms_result{
+    background-color: #0472be;
+    border-radius: 4px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    color: #ffba00;
+    display: none;
+    font-weight: 700;
+    margin: 10px 0;
+    padding: 10px 0;
+    text-align: center;
+    width: 100%;
+}
+/* DIV SMS-result-order-credit - END */
+/* DIV box-order-credit-portal-home - START */
+.box-order-credit-portal-home {
+    background: #e1edf3 url("/wp-content/plugins/wc-hispasms-order-notification/assets/images/Desktop_Messenger-opacity.png") no-repeat scroll 185px 7px;
+    border: 1px none #428bca;
+    border-radius: 1px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    min-height: 75px;
+}
+.boton-order-access-portal {
+    float: left;
+    margin: 10px 0 0 10px;
+}
+.boton-order-access-portal > a {
+    color: #428bca;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 2px;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton-order-access-portal > a:hover {
+    background: #428bca none repeat scroll 0 0;
+    color: #fff;
+	border-radius: 2px;
+}
+.boton-order-home-hispasms {
+    float: left;
+	margin: 10px 0 0 10px;
+}
+.boton-order-home-hispasms > a {
+    color: #428bca;
+    float: left;
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 2px;
+    padding: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.boton-order-home-hispasms > a:hover {
+    background: #428bca none repeat scroll 0 0;
+    color: #fff;
+	border-radius: 2px;
+}
+/* DIV box-order-credit-portal-home - END */
+/* DIV box-order-credit-portal-home - START */
+.box-sign-up {
+    display: block;
+    margin-top: 15px;
+	width: 100%;
+}
+.boton-order-buy-balance {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.boton-order-buy-balance > a {
+    border: 1px solid #428bca;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    color: #428bca;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+	margin: 5px 0 10px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;	
+}
+.boton-order-buy-balance > a:hover {
+    background: #428bca none repeat scroll 0 0;
+    border: 1px solid #333;
+    color: #fff;
+}
+.boton-order-sign-up {
+    display: block;
+    float: right;
+    width: 100%;
+}
+.boton-order-sign-up > a {
+    border: 1px solid #428bca;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    color: #428bca;
+    display: block;
+    font-size: 13px;
+    font-weight: 700;
+	margin: 5px 0 10px;
+    padding: 4px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;	
+}
+.boton-order-sign-up > a:hover {
+    background: #428bca none repeat scroll 0 0;
+    border: 1px solid #333;
+    color: #fff;
+}
+/************* CAJA DE SALDO - ORDER WOOCOMMERCE - END *************/
+
+/* Pestañas configuración - START */
+#hispasms_general-tab.nav-tab,
+#hispasms_gateway-tab.nav-tab,
+#hispasms_message-tab.nav-tab,
+#hispasms_message_diff_status-tab.nav-tab {
+	color: #428bca;
+	background: #e1edf3 none repeat scroll 0 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 20px;
+}
+#hispasms_general-tab.nav-tab:focus .nav-tab:hover,
+#hispasms_gateway-tab.nav-tab:focus .nav-tab:hover,
+#hispasms_message-tab.nav-tab:focus .nav-tab:hover,
+#hispasms_message_diff_status-tab.nav-tab:focus .nav-tab:hover {
+	color: #428bca;
+	background: #e1edf3 none repeat scroll 0 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 20px;	
+}
+#hispasms_general-tab.nav-tab-active,
+#hispasms_gateway-tab.nav-tab-active,
+#hispasms_message-tab.nav-tab-active,
+#hispasms_message_diff_status-tab.nav-tab-active {
+	color: #28587f;
+	background: #fff none repeat scroll 0 0;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;	
+}
+/* Pestañas configuración - END */
+/* CAJA contenido pestañas - START */
+.toplevel_page_hispa-order-sms-notification-settings .postbox {
+    background: none;
+	border: none;
+	box-shadow: none;
+}
+.toplevel_page_hispa-order-sms-notification-settings .postbox h1,
+.toplevel_page_hispa-order-sms-notification-settings .postbox h2,
+.toplevel_page_hispa-order-sms-notification-settings .postbox h3 {
+	color: #428bca;
+}
+.toplevel_page_hispa-order-sms-notification-settings .postbox hr {
+	border-bottom: 1px dotted #428bca;
+}
+#hispasms_send_sms_any h3.hndle {
+	border-bottom: 1px dotted #428bca;
+	color: #428bca;
+}
+#send_sms_to_buyer.postbox {
+    border: 2px solid #e2e2e2;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.06);
+}
+
+.postbox #hispasms_general,
+.postbox #hispasms_gateway,
+.postbox #hispasms_message,
+.postbox #hispasms_message_diff_status,
+#hispasms_send_sms_any.postbox {
+    background: #e9e9e9 none repeat scroll 0 0;
+    border: 1px none #e5e5e5;
+	border-radius: 10px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    min-width: 255px;
+	padding: 10px 20px;
+}
+/* CAJA contenido pestañas - END */
+
+/* CAJA REPORTE (DELIVERY LOGS) - START */
+#hispasms_receiver_number {
+    height: 29px;
+    padding: 5px;
+    width: 100%;	
+}
+#hispasms_send_sms_any input, #hispasms_send_sms_any textarea {
+    display: block;
+    width: 100%;
+}
+/* CAJA REPORTE (DELIVERY LOGS) - END */
+
+/* DATA TABLE - START */
+.col_th {
+	text-align: left;
+}
+.col_th_hidden_responsive {
+	display: none;
+}
+.hide_class {
+	display: none;
+}
+.hispasms_hide_class {
+	display: none;
+}
+/* DATA TABLE - END */
+
+/***********************************************************************************************/
+/***********************************************************************************************/
+/****************************************** MEDIA SCREEN ***************************************/
+/***********************************************************************************************/
+/***********************************************************************************************/
+
+/***************************************** max-width:960px *************************************/
+@media screen and (max-width:960px){
+/* PLUGIN SMS - START */
+.box-credit {
+    flex-basis: 50%;
+}
+.buy-signup {
+    flex-basis: 50%;
+}
+.access-portal-home {
+    flex-basis: 50%;
+	margin-top: 25px;	
+}
+.logo-hispa-menu {
+	flex-basis: 50%;
+	margin-top: 25px;
+}	
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+
+/* DATA TABLE - END */
+}
+
+/***************************************** max-width:768px *************************************/
+@media screen and (max-width:767px){
+.postbox .inside h2, .wrap [class$="icon32"] + h2, .wrap h1, .wrap > h2:first-child {
+	font-size: 16px;
+	line-height: 20px;	
+}
+/* PLUGIN SMS - START */
+.box-credit {
+    flex-basis: 100%;
+}
+.buy-signup {
+    flex-basis: 100%;
+	margin-top: 10px;
+}
+.boton-order-sign-up-general {
+    display: block;
+    width: 100%;
+}
+.boton-order-sign-up-general > a {
+    display: block;
+    margin-top: 10px;
+	text-align: center;
+}
+.access-portal-home {
+    flex-basis: 100%;
+	margin-top: 25px;	
+}
+.boton-access-portal {
+    display: block;
+    width: 100%;
+}
+.boton-home-hispasms {
+    display: block;
+    margin-top: 10px;
+    width: 100%;
+}
+.logo-hispa-menu {
+	flex-basis: 100%;
+	margin-top: 25px;
+}
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+#reportlog table {
+           width:100%;
+       }
+#reportlog thead {
+           display: none;
+       }
+#reportlog tr:nth-of-type(2n) {
+           background-color: inherit;
+       }
+#reportlog tr td:first-child {
+           background: #aaa;
+           font-weight:bold;
+           font-size:1em;
+       }
+#reportlog tbody td {
+           display: block;
+           text-align:center;
+       }
+/*#reportlog tbody td:before {
+           content: attr(data-th);
+           display: block;
+           text-align:center;
+       }*/
+.col_th_hidden_responsive {
+	display: block;
+	text-align:left;
+}
+#reportlog tbody td.flex-row {
+	display:flex;
+	justify-content:space-between;
+}
+.flex-row .flex-th{
+	font-weight:bold;
+	flex-basis:30%;
+}
+.flex-row .flex-td{
+	flex-basis:70%;
+	text-align:left;
+	padding-left: 10px;
+}
+/* DATA TABLE - END */
+}
+/***************************************** max-width:360px *************************************/
+@media screen and (max-width:360px){
+.postbox .inside h2, .wrap [class$="icon32"] + h2, .wrap h1, .wrap > h2:first-child {
+	font-size: 14px;
+	line-height: 18px;	
+}
+.box-credit-amount {
+    width: 80px;
+}	
+/* PLUGIN SMS - START */
+
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+
+/* DATA TABLE - END */
+}
+
+
+/**********************************************************************************************/
+/************************************* MIN TO MAX WIDTH ***************************************/
+/**********************************************************************************************/
+
+/*************************** min-width:50px and max-width:360px ******************************/
+@media only screen and (min-width:50px) and (max-width:359px) {
+/* PLUGIN SMS - START */
+.box-credit > span {
+	display: block;
+	text-align: center;
+	float: none;
+}
+.box-credit-amount {
+    display: inline-block;
+    float: left;
+    margin-top: 10px;
+    width: 75%;
+}
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+.hidden_responsive {
+	display:none;
+}
+table.dataTable {
+    font-size: 9px;
+}
+/* DATA TABLE - END */
+}
+/*************************** min-width:50px and max-width:850px ******************************/
+@media only screen and (min-width:50px) and (max-width:850px) {
+/* PLUGIN SMS - START */
+
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+.box-order-credit-img {
+	margin: 7px 0 0 15px;
+}
+.box-order-credit-portal-home {
+	background: #e1edf3 url("/wp-content/plugins/wc-hispasms-order-notification/assets/images/Desktop_Messenger-opacity.png") no-repeat scroll right center;
+}
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+
+/* DATA TABLE - END */
+}
+/*************************** min-width:320px and max-width:480px ******************************/
+@media only screen and (min-width:320px) and (max-width:479px) {
+/* PLUGIN SMS - START */
+
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+.hidden_responsive {
+	display:none;
+}
+table.dataTable {
+    font-size: 11px;
+}
+/* DATA TABLE - END */
+}
+/*************************** min-width:480px and max-width:768px ******************************/
+@media only screen and (min-width:480px) and (max-width:767px) {
+/* PLUGIN SMS - START */
+
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+.hidden_responsive {
+	display:none;
+}
+table.dataTable {
+    font-size: 12px;
+}
+/* DATA TABLE - END */
+}
+/*************************** min-width:768px and max-width:1024px ******************************/
+@media only screen and (min-width:768px) and (max-width:1023px) {
+/* PLUGIN SMS - START */
+
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+.hidden_responsive {
+	display:none;
+}
+table.dataTable {
+    font-size: 10px;
+}
+/* DATA TABLE - END */
+}
+/*************************** min-width:1024px and max-width:1280px ******************************/
+@media only screen and (min-width:1024px) and (max-width:1279px) {
+/* PLUGIN SMS - START */
+
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+.box-order-credit-amount {
+    width: 65px;
+}
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+table.dataTable {
+    font-size: 10px;
+}
+/* DATA TABLE - END */
+}
+/*************************** min-width:960px and max-width:1440px ******************************/
+@media only screen and (min-width:960px) and (max-width:1440px) {
+/* PLUGIN SMS - START */
+.buy-signup,
+.box-credit,
+.access-portal-home,
+.logo-hispa-menu {
+    flex-basis: 50%;
+}
+.access-portal-home {
+	margin-top: 25px;	
+}
+.logo-hispa-menu {
+	margin-top: 25px;
+}
+/* PLUGIN SMS - END */
+
+/* ORDERS WOOCOMMERCE - START */
+
+/* ORDERS WOOCOMMERCE - END */
+
+/* DATA TABLE - START */
+
+/* DATA TABLE - END */
+}
