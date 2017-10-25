@@ -125,10 +125,13 @@ En caso de no querer usar un plugin para que introduzca el Código de País de m
 **=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=**
 
  Nombre de Plugin: WooCommerce international phone input
- Author: Alex Masliychuk (alex91ckua)							 |
+ 
+ Author: Alex Masliychuk (alex91ckua)
 
  Plugin URI: woo-phone-input-plugin
+ 
  Plugin URL: https://codecanyon.net/item/woocommerce-international-phone-input/7960098
+ 
 **=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=**
 
 
