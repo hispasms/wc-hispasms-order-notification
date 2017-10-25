@@ -1,0 +1,603 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: WooCommerce Order Notification HispaSMS\n"
+"POT-Creation-Date: 2017-09-15 16:08+0200\n"
+"PO-Revision-Date: 2017-09-08 12:53+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: hispasms-wc-order.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/config-options.php:17
+msgid ""
+"For order id just insert <code>[order_id]</code> and for order status insert "
+"<code>[order_status]</code>. Similarly <code>[order_items]</code>, "
+"<code>[order_items_description]</code>, <code>[order_amount]</code>, "
+"<code>[billing_firstname]</code>, <code>[billing_lastname]</code>, "
+"<code>[billing_email]</code>, <code>[billing_address1]</code>, "
+"<code>[billing_address2]</code>, <code>[billing_country]</code>, "
+"<code>[billing_city]</code>, <code>[billing_state]</code>, "
+"<code>[billing_postcode]</code>, <code>[billing_phone]</code>, "
+"<code>[shipping_address1]</code>, <code>[shipping_country]</code>, "
+"<code>[shipping_city]</code>, <code>[shipping_state]</code>, "
+"<code>[shipping_postcode]</code>, <code>[payment_method]</code>"
+msgstr ""
+
+#: classes/config-options.php:53
+msgid "SMS Settings"
+msgstr ""
+
+#: classes/config-options.php:54
+msgid "Send SMS to Any"
+msgstr ""
+
+#: classes/config-options.php:55 classes/config-options.php:165
+msgid "SMS Delivery Report"
+msgstr ""
+
+#: classes/config-options.php:65
+msgid "Send SMS to a single or several Numbers"
+msgstr ""
+
+#: classes/config-options.php:72
+msgid ""
+"<strong>INFORMATION</strong><br /><strong>·</strong> You can send SMS to a "
+"single recipient or several at a time. To do this, you must put the number "
+"of each recipient separated by a comma <strong>(,)</strong> and without any "
+"space <strong>( e.g 1:</strong> 1 recipient. <code><strong>34612345678</"
+"strong></code> <strong>)</strong>. <strong>( e.g 2:</strong> several "
+"recipients. <code><strong>34612345678,34698765432,34611228866</strong></"
+"code> <strong>)</strong> <strong>-- No <code>\"short code\"</code> "
+"customization of messages, plain text only --</strong>.<br /><strong>·</"
+"strong> Make sure that the SMS recipient number must have the "
+"<strong>Country Code</strong> before the phone number <strong>( e.g:</"
+"strong> the number format must be like this <code>34612345678</code> "
+"<strong>)</strong>, where <code></strong>34</strong></code> is the "
+"<strong>Country Code</strong>, in this case to send an SMS to SPAIN"
+msgstr ""
+
+#: classes/config-options.php:76
+msgid "ERROR : Receiver phone number must be required"
+msgstr ""
+
+#: classes/config-options.php:78
+msgid ""
+"Remember to include the <strong>Country Code</strong> as indicated below"
+msgstr ""
+
+#: classes/config-options.php:85
+msgid "ERROR : Enter a valid phone number with <strong>Country Code</strong>"
+msgstr ""
+
+#: classes/config-options.php:87
+msgid "Remember that landline numbers are not accepted"
+msgstr ""
+
+#: classes/config-options.php:94
+msgid "ERROR : Message SMS is required"
+msgstr ""
+
+#: classes/config-options.php:96
+msgid "You must enter text in the message field before you can send it"
+msgstr ""
+
+#: classes/config-options.php:103
+msgid "ERROR : <strong>SMS Gateway</strong> has not been configured correctly"
+msgstr ""
+
+#: classes/config-options.php:105
+msgid ""
+"Access the <strong>SMS Gateway Settings</strong> tab and make the necessary "
+"settings"
+msgstr ""
+
+#: classes/config-options.php:112
+msgid ""
+"ERROR : Message Sending Faild, Please check your number or Gateway settings"
+msgstr ""
+
+#: classes/config-options.php:114
+msgid ""
+"An Error has ocurred in the sending, access <strong>SMS Notifications</"
+"strong> in the <strong>SMS Gateway Settings</strong> Tab to configure your "
+"account correctly. Also check the phone number you entered to see if it is "
+"correct"
+msgstr ""
+
+#: classes/config-options.php:121
+msgid "SUCCESS : Message Sucessfully Send to Receiver"
+msgstr ""
+
+#: classes/config-options.php:123
+msgid ""
+"You can review the logs or generate a complete report of your SMS messages "
+"in your <strong><a href=\"https://portal.hispasms.com\" target=\"_blank\" /"
+">Services and Campaigns Portal</a></strong> in the <strong>Reports</strong> "
+"section"
+msgstr ""
+
+#: classes/config-options.php:129
+msgid "Send SMS to Any number"
+msgstr ""
+
+#: classes/config-options.php:133
+msgid "Receiver Number"
+msgstr ""
+
+#: classes/config-options.php:135
+msgid ""
+"Enter the SMS Receiver Number, the number must include the <strong>Country "
+"Code</strong>"
+msgstr ""
+
+#: classes/config-options.php:139
+msgid "SMS Body"
+msgstr ""
+
+#: classes/config-options.php:141
+msgid "Enter your message body what you like you want to send this receiver"
+msgstr ""
+
+#: classes/config-options.php:146 hispasms-wc-order.php:460
+msgid "Send SMS"
+msgstr ""
+
+#: classes/config-options.php:172
+msgid ""
+"<strong>INFORMATION</strong><br /><strong>·</strong> From this section you "
+"will be able to quickly display a list of all the status reports of each sms "
+"message that have been sent. Remember that it may take some time to update "
+"the Status.<br /><strong>·</strong> The information is not instantly "
+"updated, it may take a few minutes to appear.<br /><strong>·</strong> In the "
+"list of entries, you can organize each result of the column you want in "
+"descending or ascending order. In the option on the left with the "
+"\"<strong>Show Entries</strong>\" drop-down, you can change the default "
+"records that show that they are 10, 25, 50 or 100. And in the "
+"\"<strong>Search:</strong>\" field on the right, you can filter as you type "
+"a number or words and the matching results will be displayed.<br /"
+"><strong>·</strong> Only the <strong>last 48 hours</strong> of reports are "
+"displayed. To see a more detailed report, you can review the logs or "
+"generate a complete report of your SMS messages in your <strong><a href="
+"\"https://portal.hispasms.com\" target=\"_blank\" />Services and Campaigns "
+"Portal</a></strong> in the <strong>Reports</strong> section<br /><strong>·</"
+"strong> The format used to display the dates in the report list is as "
+"follows: <strong>D-M-Y ( days-months-years )</strong> and for the time is: "
+"<strong>H:M:S ( hours:minuts:seconds )</strong>"
+msgstr ""
+
+#: classes/config-options.php:176
+msgid "Logs Report List"
+msgstr ""
+
+#: classes/config-options.php:188 classes/config-options.php:210
+msgid "Destination Address:"
+msgstr ""
+
+#: classes/config-options.php:189 classes/config-options.php:219
+msgid "Sender Address:"
+msgstr ""
+
+#: classes/config-options.php:190 classes/config-options.php:228
+msgid "Message Text:"
+msgstr ""
+
+#: classes/config-options.php:191 classes/config-options.php:237
+msgid "Delivery Status:"
+msgstr ""
+
+#: classes/config-options.php:192 classes/config-options.php:258
+msgid "Description:"
+msgstr ""
+
+#: classes/config-options.php:193 classes/config-options.php:281
+msgid "Send Date Time:"
+msgstr ""
+
+#: classes/config-options.php:194 classes/config-options.php:290
+msgid "Date of Delivery:"
+msgstr ""
+
+#: classes/config-options.php:195 classes/config-options.php:303
+msgid "SMS Count:"
+msgstr ""
+
+#: classes/config-options.php:196 classes/config-options.php:312
+msgid "Price:"
+msgstr ""
+
+#: classes/config-options.php:197 classes/config-options.php:321
+msgid "Currency:"
+msgstr ""
+
+#: classes/config-options.php:198 classes/config-options.php:330
+msgid "Operator:"
+msgstr ""
+
+#: classes/config-options.php:199 classes/config-options.php:339
+msgid "Country:"
+msgstr ""
+
+#: classes/config-options.php:243 classes/config-options.php:578
+#: classes/config-options.php:628
+msgid "Failed"
+msgstr ""
+
+#: classes/config-options.php:246
+msgid "Delivered"
+msgstr ""
+
+#: classes/config-options.php:249
+msgid "Rejected"
+msgstr ""
+
+#: classes/config-options.php:264
+msgid "Message sent and delivered"
+msgstr ""
+
+#: classes/config-options.php:267
+msgid "Not enough credits"
+msgstr ""
+
+#: classes/config-options.php:270
+msgid "Message delivered to handset"
+msgstr ""
+
+#: classes/config-options.php:273
+msgid "Invalid destination address"
+msgstr ""
+
+#: classes/config-options.php:364
+msgid "General Settings"
+msgstr ""
+
+#: classes/config-options.php:368
+msgid "SMS Gateway Settings"
+msgstr ""
+
+#: classes/config-options.php:373
+msgid "SMS Notify Settings"
+msgstr ""
+
+#: classes/config-options.php:378
+msgid "SMS Body Settings"
+msgstr ""
+
+#: classes/config-options.php:398
+msgid "Enable SMS Notifications"
+msgstr ""
+
+#: classes/config-options.php:399
+msgid "If checked then enable your sms notification for new order"
+msgstr ""
+
+#: classes/config-options.php:405
+msgid "Enable Admin Notifications"
+msgstr ""
+
+#: classes/config-options.php:406
+msgid "If checked then enable admin sms notification for new order"
+msgstr ""
+
+#: classes/config-options.php:413
+msgid "Enable buyer Notification"
+msgstr ""
+
+#: classes/config-options.php:414
+msgid "If checked then buyer can get notification options in checkout page"
+msgstr ""
+
+#: classes/config-options.php:420
+msgid "Force buyer notification"
+msgstr ""
+
+#: classes/config-options.php:421
+msgid ""
+"If select <strong>Yes</strong> then the Buyer SMS Notification option will "
+"be Required in Checkout page"
+msgstr ""
+
+#: classes/config-options.php:425
+msgid "Yes"
+msgstr ""
+
+#: classes/config-options.php:426
+msgid "No"
+msgstr ""
+
+#: classes/config-options.php:432
+msgid "Text of check box for Buyer SMS Notification"
+msgstr ""
+
+#: classes/config-options.php:433
+msgid ""
+"Enter the text that will appear as a checkbox on the <strong>Checkout Page</"
+"strong> of the Buyer"
+msgstr ""
+
+#: classes/config-options.php:435
+msgid ""
+"Send me SMS Notifications from the Status of my Orders<br/><strong>INFO:</"
+"strong> SMS Notifications will be sent in your billing <strong>Phone</"
+"strong> of your account and have no cost"
+msgstr ""
+
+#: classes/config-options.php:439
+msgid "Check Order Status "
+msgstr ""
+
+#: classes/config-options.php:440
+msgid ""
+"This is used to choose in which <strong>Order Status</strong> notifications "
+"will be sent by SMS ( select a minimum state to notify )"
+msgstr ""
+
+#: classes/config-options.php:449
+msgid "Your SMS Gateway"
+msgstr ""
+
+#: classes/config-options.php:450
+msgid "Is your current SMS Gateway"
+msgstr ""
+
+#: classes/config-options.php:460
+msgid "Enter your Phone Number with the <strong>Country Code</strong>"
+msgstr ""
+
+#: classes/config-options.php:461
+msgid ""
+"<br>Admin Order SMS Notifications will be send in this number. Please, make "
+"sure that the number must have a <strong>Country Code</strong> <strong>(</"
+"strong> e.g. : <strong>34612345678</strong> where <strong>34</strong> will "
+"be <strong>Country Code )</strong>"
+msgstr ""
+
+#: classes/config-options.php:466
+msgid "Enter your SMS body"
+msgstr ""
+
+#: classes/config-options.php:467 classes/config-options.php:547
+#: classes/config-options.php:597
+msgid ""
+"Write your custom message. When an order is create then you get this type of "
+"format message."
+msgstr ""
+
+#: classes/config-options.php:474
+msgid "Enter buyer SMS body"
+msgstr ""
+
+#: classes/config-options.php:475
+msgid ""
+"Write your custom message. If enbale buyer notification options then buyer "
+"can get this message in this format."
+msgstr ""
+
+#: classes/config-options.php:485
+msgid "Enable different message for different order status"
+msgstr ""
+
+#: classes/config-options.php:486
+msgid ""
+"If checked then admin and buyer get sms body content according with "
+"different enabled order status"
+msgstr ""
+
+#: classes/config-options.php:532
+msgid "Hispasms"
+msgstr ""
+
+#: classes/config-options.php:544
+msgid "Set the content of SMS Notifications for Buyer"
+msgstr ""
+
+#: classes/config-options.php:546
+msgid ""
+"Set your Buyers SMS Notifications content, according to the Status of your "
+"Order that has been activated in the tab of <strong>General Settings</strong>"
+msgstr ""
+
+#: classes/config-options.php:560 classes/config-options.php:610
+msgid "Pending"
+msgstr ""
+
+#: classes/config-options.php:560 classes/config-options.php:563
+#: classes/config-options.php:566 classes/config-options.php:569
+#: classes/config-options.php:572 classes/config-options.php:575
+#: classes/config-options.php:578 classes/config-options.php:581
+#: classes/config-options.php:610 classes/config-options.php:613
+#: classes/config-options.php:616 classes/config-options.php:619
+#: classes/config-options.php:622 classes/config-options.php:625
+#: classes/config-options.php:628 classes/config-options.php:631
+msgid "Order Status"
+msgstr ""
+
+#: classes/config-options.php:563 classes/config-options.php:613
+msgid "Processing"
+msgstr ""
+
+#: classes/config-options.php:566 classes/config-options.php:616
+msgid "On-hold"
+msgstr ""
+
+#: classes/config-options.php:569 classes/config-options.php:619
+msgid "Completed"
+msgstr ""
+
+#: classes/config-options.php:572 classes/config-options.php:622
+msgid "Cancelled"
+msgstr ""
+
+#: classes/config-options.php:575 classes/config-options.php:625
+msgid "Refunded"
+msgstr ""
+
+#: classes/config-options.php:594
+msgid "Set content of SMS Notifications for Admin"
+msgstr ""
+
+#: classes/config-options.php:596
+msgid ""
+"Set your Admin SMS Notifications content, according to the Status of your "
+"Order that has been activated in the tab of <strong>General Settings</strong>"
+msgstr ""
+
+#: classes/config-options.php:643
+msgid ""
+"Sorry no Order Status will be selected for sending SMS. Select some Order "
+"Status from <strong>General Settings</strong> Tab"
+msgstr ""
+
+#: classes/config-options.php:660
+msgid ""
+"<p class=\"account-hispasms-info\">Fill in your account information in "
+"<strong>HispaSMS</strong>. If you do not have this information, then go to "
+"<strong><a href=\"https://portal.hispasms.com\" target=\"_blank\">HispaSMS "
+"Portal</a></strong> and get your informations.<br /><br />If you do not have "
+"an active client account yet, please, contact our Advisors so they can help "
+"you get one from <strong><a href=\"https://www.hispasms.com\" target=\"_blank"
+"\">HERE</a></strong>.</p><br />"
+msgstr ""
+
+#: classes/config-options.php:672
+msgid "Hispasms Username"
+msgstr ""
+
+#: classes/config-options.php:675
+msgid "Enter your Hispasms Username"
+msgstr ""
+
+#: classes/config-options.php:680
+msgid "Hispasms Password"
+msgstr ""
+
+#: classes/config-options.php:683
+msgid "Enter your Hispasms Password"
+msgstr ""
+
+#: classes/config-options.php:687
+msgid "Hispasms Sender Id"
+msgstr ""
+
+#: classes/config-options.php:690
+msgid ""
+"Sender ID that will appear in the Message with a maximum of 11 alphanumeric "
+"characters. Eg: HISPASMS, 34612345678 or 34911234567 (Do not use + before "
+"the Country Code)"
+msgstr ""
+
+#: hispasms-wc-order.php:204
+msgid "<strong>Send Notification Via SMS</strong> must be required"
+msgstr ""
+
+#: hispasms-wc-order.php:223
+msgid "Buyer want to get SMS notification"
+msgstr ""
+
+#: hispasms-wc-order.php:259
+msgid "You have a new Order. The [order_id] is now [order_status]"
+msgstr ""
+
+#: hispasms-wc-order.php:260
+msgid "Thanks for purchasing. Your [order_id] is now [order_status]. Thank you"
+msgstr ""
+
+#: hispasms-wc-order.php:352 hispasms-wc-order.php:376
+msgid "SMS Send Successfully"
+msgstr ""
+
+#: hispasms-wc-order.php:354 hispasms-wc-order.php:378
+msgid "SMS Send Faild, Somthing wrong"
+msgstr ""
+
+#: hispasms-wc-order.php:363
+msgid "SMS Send to buyer Successfully"
+msgstr ""
+
+#: hispasms-wc-order.php:365
+msgid "SMS Send Faild to buyer, Somthing wrong"
+msgstr ""
+
+#: hispasms-wc-order.php:432
+msgid "Send SMS to Buyer"
+msgstr ""
+
+#: hispasms-wc-order.php:451
+msgid "Send Custom SMS to this buyer"
+msgstr ""
+
+#: hispasms-wc-order.php:452
+msgid "Message will be send in this buyer billing number "
+msgstr ""
+
+#: hispasms-wc-order.php:464 inc/general-menu.php:24
+msgid "Portal Access"
+msgstr ""
+
+#: hispasms-wc-order.php:468 inc/general-menu.php:27
+msgid "HispaSMS Website"
+msgstr ""
+
+#: hispasms-wc-order.php:476 inc/general-menu.php:14
+msgid "Buy Balance"
+msgstr ""
+
+#: hispasms-wc-order.php:480 inc/general-menu.php:17
+msgid "Sign Up"
+msgstr ""
+
+#: hispasms-wc-order.php:511
+msgid "Message Send Successfully"
+msgstr ""
+
+#: hispasms-wc-order.php:513
+msgid "Sending Failed, Somthing Wrong"
+msgstr ""
+
+#: inc/general-menu.php:4 inc/order-menu.php:6
+msgid "Account Balance"
+msgstr ""
+
+#: lib/class.settings-api.php:295
+msgid "Browse"
+msgstr ""
+
+#: lib/class.settings-api.php:404
+msgid ""
+"Order Notifications for WooCommerce of HispaSMS<br /><br />Configuration "
+"Panel for Admins"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Order Notification HispaSMS"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.hispasms.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This is a WooCommerce add-on. By Using this plugin admin and buyer can get "
+"notification after placing order via sms using different SMS gateways."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "HispaSMS"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.hispasms.com/"
+msgstr ""
