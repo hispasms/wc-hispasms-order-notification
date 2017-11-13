@@ -1,4 +1,4 @@
-﻿# WooCommerce Order Notification HispaSMS 
+﻿# WooCommerce Order Notification HispaSMS
 Contributors: HispaSMS
 Plugin URL: https://www.hispasms.com/recursos/aplicaciones/
 Tags: woocommerce, commerce, e-commerce, commerce, shop, virtual shop, sms, notify, notifications, sms notify, sms notifications
