@@ -14,7 +14,7 @@ use hispaSMS\utils\Logs;
 use hispaSMS\utils\Utils;
 
 if(!defined('ONEAPI_BASE_URL'))
-    define('ONEAPI_BASE_URL', 'http://oneapi.hispasms.com');
+    define('ONEAPI_BASE_URL', 'https://oneapi.hispasms.com');
 
 class AbstractOneApiClient {
 
